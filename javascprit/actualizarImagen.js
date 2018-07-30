@@ -4,10 +4,10 @@ function inicializarEventos()
 {}
 var actualizar = setInterval(function ()
 {
-	actualizar()
+	actualizarImagen()
 }, 100);
 
-function actualizar()
+function actualizarImagen()
 {
     imagen = document.getElementById("imagen");
     imagen.src = "php/imagen_camara.png";
