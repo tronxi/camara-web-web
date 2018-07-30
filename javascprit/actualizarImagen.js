@@ -5,11 +5,11 @@ function inicializarEventos()
 var actualizar = setInterval(function ()
 {
     actualizarImagen()
-}, 1000);
+}, 1500);
 
 function actualizarImagen()
 {
-    var aleatorio = Math.ceil(Math.random()*10000);
+    var aleatorio = Math.ceil(Math.random()*100000);
     contenedor = document.getElementById("imagen");
     var src = "php/imagen_camara.png?'"+aleatorio+"'";
     imagen.src = src;
