@@ -10,6 +10,6 @@ var actualizar = setInterval(function ()
 
 function actualizarImagen()
 {
-    imagen = document.getElementById("imagen");
-    imagen.src = "php/imagen_camara.png";
+    contenedor = document.getElementById("contenedorImagen");
+    contenedor.innerHTML("<img src='php/imagen_camara.png' class='img-thumbnail' alt='error imagen' id='imagen'>");
 }
