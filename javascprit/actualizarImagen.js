@@ -10,6 +10,7 @@ var actualizar = setInterval(function ()
 
 function actualizarImagen()
 {
+    var aleatorio = Math.ceil(Math.random()*100);
     contenedor = document.getElementById("contenedorImagen");
-    contenedor.innerHTML = "<img src='php/imagen_camara.png' class='img-thumbnail' alt='error imagen' id='imagen'>";
+    contenedor.innerHTML = "<img src='php/imagen_camara.png?'+aleatorio+'' class='img-thumbnail' alt='error imagen' id='imagen'>";
 }
