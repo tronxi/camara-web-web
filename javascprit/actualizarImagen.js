@@ -11,5 +11,5 @@ var actualizar = setInterval(function ()
 function actualizarImagen()
 {
     contenedor = document.getElementById("contenedorImagen");
-    contenedor.innerHTML("<img src='php/imagen_camara.png' class='img-thumbnail' alt='error imagen' id='imagen'>");
+    contenedor.innerHTML = "<img src='php/imagen_camara.png' class='img-thumbnail' alt='error imagen' id='imagen'>";
 }
