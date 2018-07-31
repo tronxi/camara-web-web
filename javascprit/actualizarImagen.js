@@ -5,7 +5,7 @@ function inicializarEventos()
 var actualizar = setInterval(function ()
 {
     actualizarImagen()
-}, 1500);
+}, 100);
 
 function actualizarImagen()
 {
