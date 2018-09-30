@@ -13,7 +13,7 @@ function actualizarImagen()
     contenedor = document.getElementById("imagen");
     var src = "php/imagen_camara.png?'"+aleatorio+"'";
     imagen.src = src;
-    imagen.width = 640;
-    imagen.height = 480;
+    imagen.width = screen.width;
+    //imagen.height = 480;
     console.log(src);
 }
