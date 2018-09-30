@@ -14,6 +14,6 @@ function actualizarImagen()
     var src = "php/imagen_camara.png?'"+aleatorio+"'";
     imagen.src = src;
     imagen.width = screen.width;
-    //imagen.height = 480;
+    imagen.height = screen.height;
     console.log(src);
 }
