@@ -2,6 +2,11 @@ body{
   text-align:center;
   margin:0 auto;
 }
+#contenedorImagen{
+  margin: 0 auto;
+  text-align:left;
+  width:70%;
+  }
 .imagen{
     background-position: center center;
     background-repeat: no-repeat;
