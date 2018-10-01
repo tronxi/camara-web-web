@@ -1,9 +1,0 @@
-.fondo{
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; 
-    /* Asegura que el elemento tomara el alto total de la ventana del navegador*/
-    min-height:100%;
-    }
