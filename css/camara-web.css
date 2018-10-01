@@ -4,13 +4,6 @@ body{
 }
 #contenedorImagen{
   margin: 0 auto;
-  text-align:left;
+  text-align:center;
   width:70%;
-  }
-.imagen{
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 100%;
   }
